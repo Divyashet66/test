@@ -8,8 +8,8 @@ pipeline {
 	
 	environment {
 		PROJECT_ID = 'tech-rnd-project'
-                CLUSTER_NAME = 'tech-rnd-project-gke'
-                LOCATION = 'us-central1'
+                CLUSTER_NAME = 'buildpack-cluster-prod'
+                LOCATION = 'asia-south1'
                 CREDENTIALS_ID = 'kubernetes'	
 	}
 	
